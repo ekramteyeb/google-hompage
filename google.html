@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New tab</title>
+</head>
+<body>
+    <div id="topdiv">
+        <div class="top">Gmail</div>
+        <div class="top">Images</div>
+        <div class="top">
+            <input type="button" value="Sign in">
+        </div>
+    </div>
+    <div id="icon"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google icon"></div>
+
+     <div id="searchbar"><input type="search" placeholder="Search Google or type a URl" id="search"></div>
+    
+    <div id="luckyfeeling">
+        <button >Google Search</button>
+        <button >I'm Feeling Lucky</button>
+    
+    </div> 
+    
+    <div id="offerdin">
+        <p>Google offerd in: <a href="#">Suomi</a><span></span> <a href="#">svenska</a></p>
+    </div>
+   
+
+    <div id="bottom">
+        <div>
+            <div id="bottomleftfin">Finland</div>
+        </div>
+
+        <div id="bottomleft">
+            <div class="floatleft">Advertising</div> 
+            <div class="floatleft">Bussiness</div> 
+            <div class="floatleft">About</div> 
+            <div class="floatleft">How Search works</div> 
+        </div>
+    
+        <div id="bottomright">
+            <div class="floatleft">Privacy </div>
+            <div class="floatleft">Terms</div> 
+            <div class="floatleft">Settings</div> 
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+    html{ 
+        height:100%;
+        margin:auto;
+    }
+    body{
+        text-align: center;
+        min-height: 100vh;
+        width:100%;
+        margin:0;
+    }
+    #topdiv{
+        float:right;
+        padding:10px;
+    }
+    #icon{
+       padding-top:8rem;
+    }
+    .top{
+        float:left;
+        padding:10px;
+    }
+    #search{
+        width:30rem;
+        border-radius:2em;
+        height:3rem;
+    }#searchbar{
+        padding-top:20px;
+    }
+    #luckyfeeling{
+        padding-top:20px;
+    }
+    #offerdin{
+        padding-top:15px;
+    }
+    .floatleft{
+        float:left;
+        padding:10px;
+    }
+    #bottomleftfin{
+        width:100%;
+        text-align:left;
+        border-bottom: solid grey 1px;
+        padding:10px;
+        margin-left:20px;
+        
+    }
+    #bottom{
+        width:100%;
+        position: fixed;
+        bottom: 0;
+        background-color:rgb(226, 223, 223);
+        
+       
+    }
+    #bottomleft{
+       float:left;
+       margin-left:20px;
+    }
+    #bottomright{
+        float:right;
+        margin-right:20px;
+    }
+</style>
